@@ -1,0 +1,27 @@
+/run/verbose 2
+/run/initialize
+/control/execute vis.mac
+/vis/open HepRepFile
+/vis/sceneHandler/create HepRepFile
+/vis/viewer/create ! ! 600
+/vis/drawVolume
+/vis/scene/create
+/vis/scene/add/volume world -1 -1 none m 0 0 0 0 0 0
+/vis/sceneHandler/attach
+/vis/viewer/flush
+/vis/viewer/refresh viewer-0
+/vis/viewer/update viewer-0
+/vis/scene/add/trajectories
+/tracking/storeTrajectory 1
+/vis/scene/notifyHandlers
+/vis/scene/add/hits
+/vis/scene/notifyHandlers
+/vis/viewer/flush
+/vis/viewer/refresh viewer-0
+/vis/viewer/update viewer-0
+/tracking/storeTrajectory 1
+/vis/scene/endOfEventAction accumulate
+/control/verbose 2
+/run/verbose 2
+/tracking/verbose 1
+/IDEA/CutsAll 0.006 mm

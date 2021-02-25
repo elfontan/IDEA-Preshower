@@ -1,0 +1,7 @@
+/home/elisa/work/IDEA_detector/FullSimulation_IDEA/IDEA-build/CMakeFiles/install/strip.dir
+/home/elisa/work/IDEA_detector/FullSimulation_IDEA/IDEA-build/CMakeFiles/edit_cache.dir
+/home/elisa/work/IDEA_detector/FullSimulation_IDEA/IDEA-build/CMakeFiles/IDEA.dir
+/home/elisa/work/IDEA_detector/FullSimulation_IDEA/IDEA-build/CMakeFiles/rebuild_cache.dir
+/home/elisa/work/IDEA_detector/FullSimulation_IDEA/IDEA-build/CMakeFiles/list_install_components.dir
+/home/elisa/work/IDEA_detector/FullSimulation_IDEA/IDEA-build/CMakeFiles/install/local.dir
+/home/elisa/work/IDEA_detector/FullSimulation_IDEA/IDEA-build/CMakeFiles/install.dir
